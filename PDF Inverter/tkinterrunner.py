@@ -42,7 +42,6 @@ def convert():
         else:
             savepath = textbox1.get()
     
-    print(filepath + ' ' + savepath)
     try:
         images = pdftoimage(filepath)
     except:
