@@ -1,3 +1,4 @@
+# Importing library and packages stuff
 from runner import get_images, invertimages
 from PIL import Image, ImageChops
 from functioning import pdftoimage, convert2pdf
