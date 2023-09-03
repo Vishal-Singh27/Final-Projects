@@ -42,6 +42,7 @@ def convert():
         else:
             savepath = textbox1.get()
     
+    print(filepath + ' ' + savepath)
     try:
         images = pdftoimage(filepath)
     except:
@@ -54,6 +55,8 @@ def convert():
     invertedimages = invertimages(images)
     
     convert2pdf(invertedimages, path=savepath)
+    filepath = None
+    savepath = None
 
 
 Label(root, text="Invert PDF By Vishal Singh").grid(row=0, column=0, columnspan=10)
