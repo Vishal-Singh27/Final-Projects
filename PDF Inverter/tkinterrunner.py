@@ -6,6 +6,7 @@ from tkinter import Tk, Button, Label, filedialog, Entry, END, messagebox
 root = Tk()
 root.title("Invert PDF by Vishal Singh")
 
+# Initializing filepath and savpath
 filepath = None
 savepath = None
 
