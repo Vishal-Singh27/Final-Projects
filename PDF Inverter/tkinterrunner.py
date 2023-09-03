@@ -1,11 +1,11 @@
 # Importing library and packages stuff
-from runner import get_images, invertimages
-from PIL import Image, ImageChops
+from runner import invertimages
 from functioning import pdftoimage, convert2pdf
-from tkinter import Tk, Button, Label, filedialog, Entry, Text, END, DISABLED, messagebox
+from tkinter import Tk, Button, Label, filedialog, Entry, END, messagebox
 
 root = Tk()
 root.title("Invert PDF by Vishal Singh")
+
 filepath = None
 savepath = None
 
